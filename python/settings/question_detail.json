@@ -1,0 +1,16 @@
+{
+  "sectionI" : {
+    "row" : 20,
+    "col" : 20
+  },
+  "sectionII" : {
+    "row" : 20,
+    "col" : 20
+
+  },
+  "roll" : {
+    "row" : 10,
+    "col" : 4
+  }
+
+}

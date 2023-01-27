@@ -1,0 +1,12 @@
+{
+  "pathImage" : "images/perfect (2).jpg",
+  "widthImg" : 500,
+  "heightImg" : 800,
+  "labels" : [["Original","Gray","Edges","Contours"],
+              ["Biggest Contour","Threshold","Warpped","Final"]],
+  "thresholdDark": 7000,
+
+  "rectanglewidth" :60
+
+
+}
