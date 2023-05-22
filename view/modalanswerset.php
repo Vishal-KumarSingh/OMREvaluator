@@ -1,6 +1,6 @@
 <?php
 include "../include/conn.php";
-$sql = "select * from answers";
+$sql = "select * from answer";
 $res = mysqli_query($conn , $sql);
 
 ?>

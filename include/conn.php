@@ -1,9 +1,9 @@
 <?php
 
 
-$conn = mysqli_connect("localhost" , "root" , "" , "OMREvaluator");
-//for($i=1;$i<=40;$i++){
-//$sql = "INSERT INTO `answers` (`question_no`, `answer`) VALUES ('".$i."', '0');";
+$conn = mysqli_connect("localhost" , "root" , "" , "omrevaluator");
+//for($i=2;$i<=40;$i++){
+//$sql = "INSERT INTO `answers` (`id`, `question_no`, `answer`) VALUES (NULL, '".$i."', '0');";
 //mysqli_query($conn , $sql);
 //}
 

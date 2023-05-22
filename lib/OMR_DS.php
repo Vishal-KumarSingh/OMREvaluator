@@ -1,7 +1,7 @@
 <?php
  $threshold = $_SESSION["threshold"];
 function save_result($roll , $secI , $secII ){
-    $conn = mysqli_connect("localhost" , "root" , "" , "OMRevaluator");
+    $conn = mysqli_connect("localhost" , "root" , "" , "omrevaluator");
  $sql = "insert into merit_list (roll , secI , secII) values (".$roll." , '".toString($secI)."' , '".toString($secII)."' )";
  
  $result = getResult($secI , $secII);
@@ -133,7 +133,7 @@ function getResult($secI , $secII) {
 }
 function getAnswerfromDB(){
     $conn = mysqli_connect("localhost" , "root" , "" , "omrevaluator");
-    $sql = "select * from answers";
+    $sql = "select * from answer";
     $ans_array = array();
     $result = mysqli_query($conn , $sql);
     while($data = mysqli_fetch_assoc($result)){

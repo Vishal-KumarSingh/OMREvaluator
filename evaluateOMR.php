@@ -10,7 +10,7 @@ print_r($_FILES);
 $host    = "127.0.0.1";
 $port    = 2222;
 $imgName = $_FILES["myfile"]["name"];
-$message = "F:\\apache\htdocs\\OMRProject\\image\\".$imgName;
+$message = "C:\\xampp\\htdocs\\OMREvaluator\\image\\".$imgName;
 if(move_uploaded_file($_FILES["myfile"]["tmp_name"] , $message)){
 echo "Message To server :".$message;
 // create socket

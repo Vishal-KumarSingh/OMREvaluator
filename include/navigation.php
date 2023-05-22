@@ -37,14 +37,14 @@ body {font-size:16px;}
 </div>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <div class="w3-container">
     <h3 class="w3-padding-64"><b>Computer<br>Vision</b></h3>
   </div>
   <div class="w3-bar-block" id="sidebar">
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Set Answers</a> 
-    <a onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">History</a> 
-    <a onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Manage Candidates</a> 
+    <a  onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">History</a> 
+    <a  onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Manage Candidates</a> 
     <a onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Scanning</a> 
     <a  onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Top 20</a>
     <a  onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Settings</a>

@@ -99,7 +99,7 @@
   <div class="w3-container" id="services" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Purpose</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>This Web App is designed as a project of <b> Katihar Engineering College </b></p>
+    <p>This Web App is designed as a project of <b> Government Polytechnic College Patna 7 </b></p>
    
   </div>
 
